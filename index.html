@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>assignment 7</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>My To-Do List</h2>
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a new task...">
+      <button class="add-btn" onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+
+  <div class="container 2">
+    <h2>Counter</h2>
+    <div id="count" class="count-display">0</div>
+    <div class="btn-group">
+      <button class="dec-btn" onclick="decrease()">Decrease</button>
+      <button class="inc-btn" onclick="increase()">Increase</button>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <h2>Image Changer</h2>
+    <img id="myImage" src="https://picsum.photos/200" alt="Sample Image">
+    <br>
+    <button onclick="changeImage()">Change Image</button>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
